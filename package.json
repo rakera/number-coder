@@ -1,7 +1,7 @@
 {
   "name": "number-coder",
   "version": "1.0.0",
-  "description": "A library to encode numbers into codes and decode them back",
+  "description": "A lightweight TypeScript library for encoding numbers into fixed-length codes and decoding them back with customizable length and charset.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -12,10 +12,17 @@
     "number",
     "encode",
     "decode",
-    "typescript"
+    "typescript",
+    "random",
+    "charset"
   ],
-  "author": "rakera",
+  "author": "rakera <roman.akera@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakera/number-coder.git"
+  },
+  "homepage": "https://github.com/rakera/number-coder#readme",
   "devDependencies": {
     "@types/jest": "^29.5.14",
     "jest": "^29.7.0",
