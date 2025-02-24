@@ -1,0 +1,5 @@
+export const CONSTANTS = {
+    INPUT_LENGTH: 6,
+    MAX_INPUT_LENGTH: 16,
+    CHARSET: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789",
+};
